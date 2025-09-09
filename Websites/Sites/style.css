@@ -1,0 +1,251 @@
+    main {
+        width: 100%;
+        background: -moz-linear-gradient(#fc0202, #df0b0b);
+        background: -webkit-linear-gradient(#ee0404, #e00a0a);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #181c24;
+        padding: 1rem 0;
+    }
+
+    .icon {
+        width: 200px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        color: #333;
+        font: optional;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+    }
+
+    .menu {
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    ul li {
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: hsl(0, 5%, 4%);
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+
+    ul li a:hover {
+        color: hsl(0, 100%, 50%);
+        text-decoration: underline;
+    }
+
+    .search {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #14d80d;
+    }
+
+    .srch {
+        font-family: 'Times New Roman';
+        width: 200%;
+        height: 40%;
+        background: rgb(8, 224, 8);
+        border: 1px solid #000000;
+        margin-top: 13px;
+    }
+
+    .content {
+        text-align: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .content span {
+        color: #ffcc00;
+    }
+
+    .par {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .heroes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+        background-color: #000000cc;
+    }
+
+    .hero {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .hero:hover {
+        transform: scale(1.05);
+    }
+
+    .hero img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background: #181c24;
+        color: white;
+    }
+    /* ...existing code... */
+/* ...existing code... */
+
+main {
+    width: 100%;
+    background: linear-gradient(135deg, #181c24 60%, #2d2f36 100%);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    background: rgba(24, 28, 36, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    max-width: 1300px;
+}
+
+.gallery h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+.gallery-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+    color: #fff; /* Change from #ffe600 to #fff */
+    text-shadow: 2px 2px 8px #181c24;
+}
+
+/* ...existing code... */
+
+/* Comic-style font for captions */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.gallery-item {
+    position: relative;
+    width: 220px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px #000;
+    background: #222;
+    transition: transform 0.25s, box-shadow 0.25s;
+    border: 4px solid #222;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+    transition: filter 0.3s;
+    box-shadow: 0 0 24px #fc0202;
+}
+
+.gallery-item:hover {
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 0 40px #e90808, 0 0 80px #fff;
+    border-color: #e90808;
+    z-index: 2;
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, #e90808 80%, transparent 100%);
+    color: #fff;
+    padding: 18px 12px 12px 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    font-family: 'Bangers', cursive, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 8px #181c24;
+}
+
+.gallery-item:hover .gallery-info {
+    opacity: 1;
+}
+
+.gallery-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+    color: #ffe600;
+    text-shadow: 2px 2px 8px #181c24;
+}
+
+.gallery-info p {
+    margin: 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Optional: Unique glow for each Avenger */
+.avenger-thor:hover { border-color: #00cfff; box-shadow: 0 0 40px #00cfff, 0 0 80px #fff; }
+.avenger-ironman:hover { border-color: #fc0202; box-shadow: 0 0 40px #fc0202, 0 0 80px #fff; }
+.avenger-hulk:hover { border-color: #2ecc40; box-shadow: 0 0 40px #2ecc40, 0 0 80px #fff; }
+.avenger-hawkeye:hover { border-color: #a463e8; box-shadow: 0 0 40px #a463e8, 0 0 80px #fff; }
+.avenger-captain:hover { border-color: #0055ff; box-shadow: 0 0 40px #0055ff, 0 0 80px #fff; }
+.avenger-blackwidow:hover { border-color: #ff0077; box-shadow: 0 0 40px #ff0077, 0 0 80px #fff; }
