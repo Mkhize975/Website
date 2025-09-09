@@ -2,18 +2,6 @@
 
 Welcome to the **Website** repository! This project contains the source code for a personal website built and maintained by [Mkhize975](https://github.com/Mkhize975). Below you'll find an overview of the project, setup instructions, and dedicated sections to showcase images and visuals.
 
----
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Getting Started](#getting-started)
-4. [Screenshots & Images](#screenshots--images)
-5. [Contributing](#contributing)
-6. [License](#license)
-
----
 
 ## Project Overview
 
@@ -49,21 +37,10 @@ cd Website
 ---
 
 ## Screenshots & Images
+![Homepage ](https://github.com/user-attachments/assets/bc29dfd9-1015-4356-85fc-9324c8c3ec00)
+![Info](https://github.com/user-attachments/assets/bde5c612-4523-4903-9be7-b83e52841567)
+![Characters](https://github.com/user-attachments/assets/55a603af-4d17-428a-922e-9d0c567e0007)
 
-<!-- 
-Add your images/screenshots below. 
-You can upload images to the repository and reference them as shown.
--->
-
-![Homepage Screenshot](images/homepage.png)
-*Screenshot of the homepage.*
-
-![About Section](images/about-section.png)
-*About section preview.*
-
-<!-- Add more images as your project grows! -->
-
----
 
 ## Contributing
 
